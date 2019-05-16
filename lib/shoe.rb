@@ -16,7 +16,7 @@ class Shoe
   def brand=(brand)
     BRANDS << brand
     if !BRANDS.include?
-      puts "test"
+      puts "Uggs"
     end
   end
 
