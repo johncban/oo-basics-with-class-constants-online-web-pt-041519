@@ -8,8 +8,6 @@ class Shoe
     @brand = brand
     if !(BRANDS.include?(@brand)) # If BRANDS [Uggs, Rainbow] is or is not included shovel the remaining brands.
       BRANDS << @brand
-    else
-      puts "tst"
     end
   end
 
