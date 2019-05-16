@@ -17,7 +17,6 @@ class Shoe
     BRANDS << brand
     if !BRANDS.include?
       brand
-    end
   end
 
 end
